@@ -1,0 +1,22 @@
+[user]
+	name = YOUR NAME
+	email = YOUR EMAIL
+[core]
+	autocrlf = true
+	excludesfile = YOUR gitignore_global.txt full path
+	quotepath = False
+[gui]
+    encoding = utf-8
+[web]
+	browser = google-chrome
+[push]
+	default = current
+[credential]
+	helper = wincred
+[include]
+	path = .gitconfig.local
+[mergetool "sourcetree"]
+	trustExitCode = true
+	cmd = 'C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/vsdiffmerge.exe' $REMOTE $LOCAL $BASE $MERGED /m
+[difftool "sourcetree"]
+	cmd = 'C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/vsdiffmerge.exe' $LOCAL $REMOTE /t
