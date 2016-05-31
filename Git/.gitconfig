@@ -1,9 +1,9 @@
 [user]
-	name = YOUR NAME
-	email = YOUR EMAIL
+	name = guitarrapc
+	email = cherishacquire@outlook.com
 [core]
 	autocrlf = true
-	excludesfile = YOUR gitignore_global.txt full path
+	excludesfile = C:\\Users\\i.yoshizaki\\Documents\\gitignore_global.txt
 	quotepath = False
 [gui]
     encoding = utf-8
@@ -15,8 +15,8 @@
 	helper = wincred
 [include]
 	path = .gitconfig.local
-[mergetool "sourcetree"]
+[mergetool "vsdiffmerge"]
 	trustExitCode = true
 	cmd = 'C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/vsdiffmerge.exe' $REMOTE $LOCAL $BASE $MERGED /m
-[difftool "sourcetree"]
+[difftool "vsdiffmerge"]
 	cmd = 'C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/vsdiffmerge.exe' $LOCAL $REMOTE /t
