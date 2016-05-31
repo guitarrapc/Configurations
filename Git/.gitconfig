@@ -20,3 +20,9 @@
 	cmd = 'C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/vsdiffmerge.exe' $REMOTE $LOCAL $BASE $MERGED /m
 [difftool "vsdiffmerge"]
 	cmd = 'C:/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE/vsdiffmerge.exe' $LOCAL $REMOTE /t
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+[column]
+	ui = auto
